@@ -1,5 +1,7 @@
-export function AppBar () { 
+import {Navigation} from '../Navigation/Navigation'
+
+export function AppBar() { 
     return (
-        <p>Appbar</p>
+        <Navigation></Navigation>
     )
 }
