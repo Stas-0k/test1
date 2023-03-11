@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/266.ffab830b.chunk.js","mappings":"gMAAe,SAASA,IACpB,OACI,0BACI,qDAGX,C","sources":["pages/Home.js"],"sourcesContent":["export default function Home() { \n    return (\n        <div>\n            <h1>Welcome to App Contacts</h1>\n        </div>\n    )\n}"],"names":["Home"],"sourceRoot":""}
