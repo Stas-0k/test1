@@ -1,7 +1,11 @@
-import {Navigation} from '../Navigation/Navigation'
+import { Navigation } from '../Navigation/Navigation';
+import { AuthNav } from 'components/AuthNav/AuthNav';
 
-export function AppBar() { 
-    return (
-        <Navigation></Navigation>
-    )
+export function AppBar() {
+  return (
+    <header>
+      <Navigation/>
+      <AuthNav/>
+    </header>
+  );
 }
