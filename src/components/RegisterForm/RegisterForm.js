@@ -1,12 +1,14 @@
 import { useDispatch } from 'react-redux';
 import { register } from '../../redux/auth/operations';
 
+
 export const RegisterForm = () => {
   const dispatch = useDispatch();
 
+
   const handleSubmit = evt => {
     evt.preventDefault();
-      const form = evt.target;
+      const form = evt.currentTarget;
       console.log(form.elements.name.value)
     dispatch(
       register({
