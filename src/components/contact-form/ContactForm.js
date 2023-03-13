@@ -1,9 +1,10 @@
 import css from './contact-form.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { getContacts } from '../../redux/selectors';
-import {addContact} from '../../redux/operations'
+import { addContact } from '../../redux/operations'
 
-function ContactForm() {
+
+export function ContactForm() {
  
   const contacts = useSelector(getContacts);
   const dispatch = useDispatch();
@@ -52,7 +53,8 @@ function ContactForm() {
         Add contact
       </button>
     </form>
+  
   );
 }
 
-export default ContactForm;
+
